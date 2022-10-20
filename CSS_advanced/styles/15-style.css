@@ -25,9 +25,9 @@
    --section-title-color: var(--color-black);
 }
 
-*
-*::before
-*::after
+*,*:before,*:after {
+    box-sizing: inherit;
+}
 
 html {
     scroll-behavior: smooth;
