@@ -188,7 +188,7 @@ a:active{
 }
 
 .row::after{
-    content: none;
+    content: "";
     display: table;
     float: none;
 }
