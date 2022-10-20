@@ -190,5 +190,6 @@ a:active{
 .row::after{
     content: "";
     display: table;
-    float: inline-start;
+    clear: both;
+    
 }
