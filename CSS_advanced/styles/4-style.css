@@ -18,7 +18,7 @@ body {
     font-family: var(--font-family-base);
 }
 
-section.header{
+header{
     font-family: var(--font-family-title);
 }
 
