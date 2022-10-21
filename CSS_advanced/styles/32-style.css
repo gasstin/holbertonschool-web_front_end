@@ -184,7 +184,9 @@ a:active{
     color: var(--button-hover-color);
     text-decoration: var(--button-hover-text-decoration);
     background-color: var(--button-hover-background);
-    transition: background var(--transition-duration), color var(--transition-duration);   
+    transition-duration: var(--transition-duration);
+    transition-property: background-color;
+    transition-property: color;
 }
 
 .footer {
