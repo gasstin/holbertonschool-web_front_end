@@ -275,7 +275,7 @@ a:active{
 }
 
 .section-hero {
-    background-size: contain contain;
+    background-size: cover cover;
     width: 90rem;
     height: auto;
 }
