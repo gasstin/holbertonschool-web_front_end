@@ -194,7 +194,12 @@ a:active{
     
 }
 
-*[class~="col-"] {
+li[class^="col-"] {
+    float: left;
+    padding: 0.5rem;
+}
+
+div[class^="col-"] {
     float: left;
     padding: 0.5rem;
 }
